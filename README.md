@@ -7,7 +7,7 @@ The idea is based on the fact that EcmaScript accepts [most unicode characters i
 
 Utilizing that there are a couple of characters in the Cyrillic range that [look the same as Latin characters when using a lot of fonts](http://www.unicodemap.org/range/9/Cyrillic/) one can construct two valid variable names that _look_ the same in a font, but consists of different characters and therefore are different identifier.
 
-So, I forked UglifyJS 2 (that is perfectly capable of minifying variable names while not breaking the code). Wrote and algorithm that outputs similar looking words, took a name that has a lot of exchangeable characters (`BOOMBOX`), and pushed play. :)
+So, I forked UglifyJS 2 (that is perfectly capable of minifying variable names while not breaking the code). Wrote an algorithm that outputs similar looking words, took a name that has a lot of exchangeable characters (`BOOMBOX`), and pushed play. :)
 
 The results are:
 
